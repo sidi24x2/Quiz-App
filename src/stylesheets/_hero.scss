@@ -1,0 +1,28 @@
+$primary: #ffe5dc;
+$secondary: #c77254;
+$ternary: #fff0e8;
+
+.start {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: $ternary;
+  font-size: 1rem;
+  color: $secondary;
+  cursor: pointer;
+  position: fixed;
+}
+
+.hero {
+  border: 1px solid $ternary;
+  margin-top: 10%;
+  select {
+    padding: 0.5rem;
+    background-color: $ternary;
+    color: $secondary;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+}
